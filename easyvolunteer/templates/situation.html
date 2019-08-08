@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% load staticfiles%}
+{% block content %}
+
+<section class="page-section" id="services">
+  <div class="container">
+    <!-- 나의현황 페이지의 경로를 알려주는 alerts -->
+    <div class="situation_nav">
+      <a href="{% url 'mypage' %}">마이페이지</a> > <a href="{% url 'situation' %}">나의현황</a>
+    </div>
+    <hr class="situation_hr1">
+
+    <div class="situation_content">
+      <div class="sit_profile">
+        <h1 class="sit_mypro_h1">My Profile</h1>
+        <div class="myprofile">
+          <!-- 나의현황 프로필 들어갈 곳 -->
+        </div>
+      </div>
+
+      <div class="sit_action">
+        <h1 class="sit_mypro_h1">Situation</h1>
+        <div class="sit_act">
+          <!-- 나의현황 활동 들어갈 곳 -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endblock %}

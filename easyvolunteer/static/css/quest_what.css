@@ -1,0 +1,75 @@
+.Quest_lay{
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1500px;
+    width: 1400px;
+}
+
+.home_banner_area{
+    padding-top: 20px;
+    background-color: hsl(36, 40%, 90%);   
+    border-radius: 10px;
+}
+/*맨 위 봉사설명 + 봉사 사진 틀*/
+.mainn{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+/*내용*/
+.col-lg-6{
+    align-self: stretch;
+    flex: 1 0 5px;
+}
+/*사진 배열 밀리기위해 일부러함 상관*/
+.betweennnnnnnnn{
+    align-self: stretch;
+    flex: 10 0 5px;
+} 
+
+/*사진*/
+.col-lg-6{
+    align-self: stretch;
+    flex: 3 0 5px;
+}
+
+/*봉사활동 자세히 페이지- 봉사사진*/
+.quest_what_img{
+    width: 300px;
+    height:450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 2.3);
+   
+}
+
+.detail_1 {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+
+.term:nth-child(1){
+    align-self: stretch;
+    flex: 1 0 1px;
+     height: 80px ;
+}
+
+.term:nth-child(2){
+    align-self: stretch;
+    flex: 1 0 5px;
+    width: 200px;
+    height: 200px;
+    margin-left: 0px
+}
+
+.term1:nth-child(3){
+    align-self: stretch;
+    flex: 1 0 5px;
+    width: 200px;
+    height: 200px;
+}
+

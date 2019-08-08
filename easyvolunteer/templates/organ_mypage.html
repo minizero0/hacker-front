@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+{% load staticfiles%}
+{% block content %}
+
+  <section class="page-section" id="services">
+     <div class="container">
+        <h2 class="text-center mt-0">MY page</h2>
+        <hr class="divider my-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+             <a type="button" href="{% url 'quest' %}"><img class="minimg" src="{% static 'img/6365.png_860.png'%}"  ></a> 
+              <br>
+              <h3 class="h4 mb-2" >봉사 공고한 목록</h3>
+              <p class="text-muted mb-0">,,,,,,,,,</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <a type="button" href="{% url 'point' %}"><img class="minimg" src="{% static 'img/6365.png_860.png'%}"  ></a>
+              <br>
+              <h3 class="h4 mb-2">???</h3>
+              <p class="text-muted mb-0">나의 포인트확인 가능, 기프티콘으로 교환가능사이트로 이동.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <a type="button" href="{% url 'situation' %}"><img class="minimg" src="{% static 'img/6365.png_860.png'%}"  ></a>
+              <br>
+              <h3 class="h4 mb-2">??</h3>
+              <p class="text-muted mb-0">Y나의 레벨과 봉사내역 확인 가능!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <a type="button" href="{% url 'modify' %}"><img class="minimg" src="{% static 'img/6365.png_860.png'%}"  ></a>
+              <br>
+              <h3 class="h4 mb-2">기관정보 수정하기</h3>
+              <p class="text-muted mb-0">정보수정</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
